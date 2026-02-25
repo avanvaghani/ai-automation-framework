@@ -27,7 +27,7 @@ test.describe('Button - E2E Regression', () => {
         await expect(result).toBeVisible({ timeout: 5000 });
     });
 
-    test.only('TC-BTN-003: Should right-click button and verify context action', async ({ page }) => {
+    test('TC-BTN-003: Should right-click button and verify context action', async ({ page }) => {
         await buttonPage.clickRightClickTab();
         await page.waitForTimeout(1000);
 
