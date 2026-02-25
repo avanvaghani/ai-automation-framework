@@ -1,0 +1,36 @@
+{
+  "name": "e2e-tests-qspiders",
+  "version": "1.0.0",
+  "description": "E2E Regression Test Automation Framework using Playwright + TypeScript",
+  "type": "module",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "test:ui": "npx playwright test --ui",
+    "test:chromium": "npx playwright test --project=chromium",
+    "test:firefox": "npx playwright test --project=firefox",
+    "test:webkit": "npx playwright test --project=webkit",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "e2e",
+    "automation",
+    "testing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.0.0",
+    "dotenv": "^16.4.7",
+    "typescript": "^5.7.0"
+  },
+  "main": "mcp-open-google.js",
+  "dependencies": {
+    "playwright": "^1.58.2",
+    "undici-types": "^6.21.0",
+    "playwright-core": "^1.58.2"
+  }
+}
