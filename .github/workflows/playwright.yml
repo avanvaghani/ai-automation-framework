@@ -20,4 +20,3 @@ jobs:
     - run: npm ci
     - run: npx playwright install --with-deps
     - run: npx playwright test
-    - run: npx playwright show-report
